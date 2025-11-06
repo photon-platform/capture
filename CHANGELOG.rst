@@ -1,16 +1,13 @@
-changelog
+=========
+Changelog
 =========
 
-:project: photon_platform.capture
-
-0.0.1 
+0.1.0
 -----
 
-:init: 2025.310
-:merge:
-:pub: 
+*Initial release*
 
-  capture and process media
-
-- initalize project
-
+-   **Added:** Created the initial structure for the `capture` project.
+-   **Added:** Migrated core GStreamer capture, processing, and MLT generation capabilities from the `voce` project.
+-   **Added:** Established the `photon-platform-capture` package with a `capture` command-line entry point.
+-   **Added:** Created `README.md` with the project's strategic vision and `GEMINI.md` for context.
