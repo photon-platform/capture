@@ -1,0 +1,21 @@
+<mlt>
+  <producer id="main">
+    <property name="resource">23.358.111536.test2.mp4</property>
+  </producer>
+  <playlist id="playlist0">
+    <entry producer="main" in="0" out="0" />
+    <entry producer="main" in="194" out="213" />
+    <entry producer="main" in="311" out="324" />
+    <entry producer="main" in="432" out="436" />
+    <entry producer="main" in="514" out="518" />
+    <entry producer="main" in="594" out="601" />
+    <entry producer="main" in="682" out="687" />
+    <entry producer="main" in="838" out="843" />
+    <entry producer="main" in="979" />
+  </playlist>
+  <tractor id="tractor0">
+    <multitrack>
+      <track producer="playlist0" />
+    </multitrack>
+  </tractor>
+</mlt>
