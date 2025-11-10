@@ -6,10 +6,11 @@ capture
 recent logs
 -----------
 
-.. postlist:: 5
-   :excerpts:
-
-
+.. collection::
+   :type: log
+   :sort: date
+   :reverse:
+   :limit: 5
 
 .. toctree::
    :hidden:
@@ -18,7 +19,7 @@ recent logs
    mission/index.rst
    usage/index.rst
    modules/index.rst
-   logs.rst
+   log/index.rst
    demos/index.rst
    refs/index.rst
    todos.rst
