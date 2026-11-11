@@ -17,7 +17,7 @@ dependencies = [
     "rich",
     "jinja2",
     "python-slugify",
-    "PyGObject",
+    "PyGObject<3.52",
 ]
 
 [project.scripts]

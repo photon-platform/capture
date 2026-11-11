@@ -10,7 +10,9 @@ def launch_shotcut(mlt_file_path):
     """
     Launch Shotcut with the specified MLT file.
     """
-    shotcut = "/home/phi/AppImages/shotcut-linux-x86_64-250329.AppImage"
+    app_dir = Path.home() / "AppImages"
+    candidates = sorted(app_dir.glob("shotcut*.AppImage"))
+    shotcut = str(candidates[-1]) if candidates else "/home/phi/AppImages/shotcut-linux-x86_64-25.11.2.AppImage"
     try:
         subprocess.Popen([shotcut, str(mlt_file_path)])
         print(f"Launching Shotcut with MLT file: {mlt_file_path}")
