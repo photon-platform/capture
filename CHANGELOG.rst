@@ -2,6 +2,12 @@
 Changelog
 =========
 
+0.1.1
+-----
+*2026-11-15*
+
+- Ensure canonical PHOTON Platform ``logo.png`` and ``favicon.ico`` brand assets are provisioned in ``docsrc/_static/`` and rendered in site headers and browser tabs.
+
 0.1.0
 -----
 
